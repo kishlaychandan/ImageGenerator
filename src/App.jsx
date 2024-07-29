@@ -7,7 +7,7 @@ function App() {
   const[image,setImage]=useState("");
   
   async function query(data) {
-    alert("working");
+    alert("please wait for some time... ");
     const options = {
       method: "POST",
       url: "https://ai-text-to-image-generator-api.p.rapidapi.com/realistic",
