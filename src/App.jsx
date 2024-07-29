@@ -39,7 +39,7 @@ function App() {
       <input type="text"  ref={ref} placeholder="enter name" />
       <button onClick={()=>query(ref.current.value)}>Submit</button>
       {/* <h1>{image}</h1> */}
-      {image? <img src={image} />:null}
+      {image? <img className="img" src={image} />:null}
       </div>
     </>
   );
